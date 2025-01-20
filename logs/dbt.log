@@ -25,3 +25,17 @@ Happy modeling!
 [0m00:17:37.594099 [debug] [MainThread]: Command `dbt init` succeeded at 00:17:37.593566 after 23.76 seconds
 [0m00:17:37.595359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020271AA6520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202787CA450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202787A2140>]}
 [0m00:17:37.596702 [debug] [MainThread]: Flushing usage events
+[0m00:29:49.991229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001438DE78590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143907EBD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143907EB9D0>]}
+
+
+============================== 00:29:50.003293 | 7aec4e68-75e4-47c5-9173-9b0643b24486 ==============================
+[0m00:29:50.003293 [info ] [MainThread]: Running with dbt=1.7.9
+[0m00:29:50.005689 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\LOTUS\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:29:50.007359 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\LOTUS\Documents\Formation_data_analyst\Cours\quetes\ETL-ELT\github\DBT_2\quete_DBTv2\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:29:50.011313 [debug] [MainThread]: Command `dbt run` failed at 00:29:50.010727 after 0.52 seconds
+[0m00:29:50.012627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001439062FBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014390817E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143907888D0>]}
+[0m00:29:50.014247 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: jaffle_shop
+      schema: my_dbt_db2
+
+      tables:
+        - name: raw_customers
